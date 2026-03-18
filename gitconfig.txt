@@ -1,0 +1,23 @@
+-- Configuração do GIT
+git config --global user.name kaua102
+git config --global user.email kaua26987@gmail.com
+
+-- Criar projeto vazio
+npx create-expo-app@latest SilvinhaHealthApp --template blank
+
+-- Toda aula ao começar
+cd SilvinhaHealthApp
+
+-- Executar o projeto
+npx expo start --android 
+
+-- Bibliotecas
+nxp expo install expo-rounter react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+-- app.json:
+"userInterfaceStyle": "light",
+"scheme": "silvinha-health",
+"splash": {}
+
+-- package.json, mudar o main
+"main": "expo-rounter/entry",
