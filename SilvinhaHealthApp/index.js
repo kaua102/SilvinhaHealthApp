@@ -1,8 +1,21 @@
-import { registerRootComponent } from 'expo';
+import React from 'react'
+import {
+    FlatList,
+    StyleSheet, 
+    Text, 
+    TouchableOpacity,
+    View 
+} from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import {router} from 'expo-router';
 
-import App from './App';
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+export default function index() {
+  return (
+    <View>
+      <Text>Home</Text>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({})

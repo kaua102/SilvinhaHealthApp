@@ -5,8 +5,9 @@ git config --global user.email kaua26987@gmail.com
 -- Criar projeto vazio
 npx create-expo-app@latest SilvinhaHealthApp --template blank
 
--- Toda aula ao começar
+-- Restaurar o projeto após o clone
 cd SilvinhaHealthApp
+npm i
 
 -- Executar o projeto
 npx expo start --android 
