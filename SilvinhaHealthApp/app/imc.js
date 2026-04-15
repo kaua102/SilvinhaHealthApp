@@ -193,10 +193,3 @@ const styles = StyleSheet.create({
         fontWeight: '600',
     },
 });
-<Stack.Screen 
-    name="imc"
-    options={{
-        title: 'Calculadora de IMC',
-        headerShown: true
-    }}
-/>
