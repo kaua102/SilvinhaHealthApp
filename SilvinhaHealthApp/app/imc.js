@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Alert } from "react-native";
 
 const [peso, setPeso] = useState('');
 const [altura, setAltura] = useState('');
@@ -24,7 +23,6 @@ const handleCalcular = () => {
 };
 
 
-import React, { useState } from "react";
 import {
     View, Text, TextInput, TouchableOpacity,
     StyleSheet, Alert, ScrollView,
